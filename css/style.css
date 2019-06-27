@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    color:#f9f8fa;
+    line-height: 1.6;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#showcase {
+    background-image: url("../img/schoenbrunn.jpeg");
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#showcase .button{
+ font-size: 18px;
+ text-decoration: none;
+ color:#f1eff3;
+ border: #000000 1px solid;
+ padding: 10px 20px;
+ border-radius: 10px;
+ margin-top: 20px;
+}
+
+#showcase .button:hover{
+ background: #929292
+ color: #fff;
+}
+
+.gallery {
+    margin: 10px 40px;
+}
+
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
